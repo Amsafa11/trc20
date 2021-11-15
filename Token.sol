@@ -17,7 +17,7 @@ contract Token is ERC20, ERC20Detailed {
      * @dev Constructor that gives msg.sender all of existing tokens.
      */
      //CHANGE TOKEN NAME and SYMBOL
-    constructor () public ERC20Detailed("TokenName", "TokenSymbol", 18) {
-        _mint(msg.sender, 10000000 * (10 ** uint256(decimals())));
+    constructor () public ERC20Detailed("littele ali", "LIA", 18) {
+        _mint(msg.sender, 100000000000000000000000000 * (10 ** uint256(decimals())));
     }
 }
